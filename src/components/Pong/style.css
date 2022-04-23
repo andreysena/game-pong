@@ -1,0 +1,17 @@
+.pong-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    max-height: 100vh;
+}
+
+.list-container {
+    display: flex;
+    background-color: white;
+    min-width: 350px;
+    height: calc(100vh - 20px);
+    flex-direction: column;
+    margin-right: 20px;
+    padding: 10px;
+    box-shadow: 10px 7px 20px rgba(0, 0, 0, 0.2);
+}

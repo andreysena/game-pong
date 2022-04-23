@@ -1,0 +1,54 @@
+.players-container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    /* margin-top: 15px; */
+}
+
+.players-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: solid 1px #615e5e;
+}
+
+.players-container span {
+    color:rgb(2, 139, 36);
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.list-players {
+    flex-grow: 1;
+    overflow: auto;
+    padding: 10px;
+    border: solid 2px rgb(37, 126, 209);
+    border-radius: 10px;
+}
+
+.list-players::-webkit-scrollbar {
+    width: 10px;
+}
+
+.list-players::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.list-players::-webkit-scrollbar-thumb {
+    background: #888;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+  
+.list-players::-webkit-scrollbar-thumb:hover {
+    background: rgb(114, 113, 113);
+}
+
+.player-name {
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
